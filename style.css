@@ -1,0 +1,20 @@
+html {
+			font-size: 14px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.k-edit-cell > .paletteEdit, .k-edit-cell > .k-widget, .k-grid-edit-row > td > .paletteEdit, .k-grid-edit-row > td > .k-widget, .k-grid-edit-row > td > .paletteEdit {
+			width: 41.7% !important;
+		}
+			.switchEdit, .k-grid-edit-row > td > .switchEdit, .k-edit-cell > .k-widget > .switchEdit, .k-grid-edit-row > td > .switchEdit {
+				width: 10% !important;
+			}
+		#statuses-language-dropdown li.k-item.k-state-default.k-first {
+			float: right;
+			top: 45px;
+			z-index: 10005;
+			right: -6px;
+		}
+			#statuses-language-dropdown li.k-item.k-state-default.k-first.k-state-hover,
+			#statuses-language-dropdown li.k-item.k-state-default.k-first.k-state-border-downn {
+				background-color: transparent;
+			}
